@@ -12,7 +12,7 @@ const ProblemList =
   EquacaoNL(x -> 1 / (1 + exp(-0.1x + 1)) - 0.5, 0.0, "Sigmoid"),
   EquacaoNL(x->log(x^4+1)-3, -4.0, "Log neperiano"),
   EquacaoNL(x->exp((x^3-1)/(x^2+1)) -12.5, -2.0, "Exponencial"),
-  EquacaoNL(x->(x-0.9)*(x-1)*(x-1.1), 1.05, "Função de grau 3"),
+  EquacaoNL(x->(x*exp(x)-44)/(x^3+x^2+x+sqrt(11)), 1.25, "Exponencial dividida por terceiro grau"),
   EquacaoNL(x->x*exp(pi-x)-4.523x^2, -1.013, "Identidade de Euler"),
   EquacaoNL(x->log(x^2+1)/exp(-x^2+0.5x), -1.0, "Log natural dividido por exponencial"),
   EquacaoNL(x->log(sin(4/53x)), 0.002503, "Log natural com seno"),
