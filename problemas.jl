@@ -16,7 +16,6 @@ const ProblemList =
   EquacaoNL(x -> exp(sin(4/53*x)), 0.002503, "Exponencial com seno"),
   EquacaoNL(x -> cos(sqrt(2x^2))*csc(x), -14.1333, "Cotangente de raiz quadrada"),
   EquacaoNL(x -> sin(x)*cos(x), 1.0, "Seno produto Cosseno"),
-  EquacaoNL(x -> x*exp(pi+x)-4.523x^2, -1.013, "Exponencial com pi"),
   EquacaoNL(x -> (x-0.9)*(x-1)*(x-1.1), 1.05, "Função de grau 3"),
   EquacaoNL(x -> log(x^2+1)/exp(-x^2+0.5x), -1.0, "Log natural dividido por exponencial")
 ]
