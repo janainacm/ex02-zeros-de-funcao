@@ -14,7 +14,6 @@ const ProblemList =
   EquacaoNL(x->exp((x^3-1)/(x^2+1)) -12.5, -2.0, "Exponencial"),
   EquacaoNL(x->(x*exp(x)-44)/(x^3+x^2+x+sqrt(11)), 1.25, "Exponencial dividida por terceiro grau"),
   EquacaoNL(x->x*exp(pi-x)-4.523x^2, -1.013, "Identidade de Euler"),
-  EquacaoNL(x->log(x^2+1)/exp(-x^2+0.5x), -1.0, "Log natural dividido por exponencial"),
   EquacaoNL(x->log(sin(4/53x)), 0.002503, "Log natural com seno"),
   EquacaoNL(x->cos(sqrt(2x))*csc(x), -14.1333, "Cotangente de raiz quadrada"),
   EquacaoNL(x->sin(x)*cos(x), 1.0, "Seno produto Cosseno"),
