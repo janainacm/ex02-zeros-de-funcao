@@ -10,6 +10,6 @@ const ProblemList =
   EquacaoNL(x -> x^5 - 2^5, 1.0, "Grau 5"),
   EquacaoNL(x -> sin(x) + max(3 - x, 0)^2 + max(x - 3.2, 0)^2, 1.0, "π por sin"),
   EquacaoNL(x -> 1 / (1 + exp(-0.1x + 1)) - 0.5, 0.0, "Sigmoid"),
-  EquacaoNL(x -> (x*exp(x)-44)/(x^3+x^2+x+sqrt(11)), 1.25, "Exponencial dividida por terceiro grau"),
-  EquacaoNL(x -> exp(sin(4/53*x)), 0.002503, "Exponencial com seno")
+  EquacaoNL(x -> cos(sqrt(2x^2))*csc(x), -14.1333, "Cotangente de raiz quadrada"),
+  EquacaoNL(x -> (x-0.9)*(x-1)*(x-1.1), 1.05, "Função de grau 3")
 ]
