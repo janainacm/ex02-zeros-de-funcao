@@ -1,4 +1,4 @@
 const ProblemList =
 [
-EquacaoNL(x -> log(x^2/exp(x-1))+exp(x+1), -0.333, "Log natural dividido por exponencial")
+EquacaoNL(x -> log(exp(x^2-1)-2*x)-x/5, 0.667, "Log natural dividido por exponencial")
 ]
