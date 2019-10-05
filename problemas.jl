@@ -1,6 +1,4 @@
 const ProblemList =
 [
-
-EquacaoNL(x -> sin(x)*cos(x), 1.0, "Seno produto Cosseno")
-
+EquacaoNL(x -> ((exp(x)+exp(-x))/2)^2 -44*x^2-44, pi/2, "Cosseno hiperbólico")
 ]
