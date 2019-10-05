@@ -19,5 +19,5 @@ const ProblemList =
   EquacaoNL(x->sin(x)*cos(x), 1.0, "Seno produto Cosseno"),
   EquacaoNL(x->((exp(x)+exp(-x))/2)^2 -44(x^2+1), pi/2, "Cosseno hiperbólico"),
   EquacaoNL(x->(x-0.9)*(x-1)*(x-1.1), 1.05, "Função de grau 3"),
-  EquacaoNL(x->log(x^2+1)/e^(-x^2+0.5x), -1.0. "Log natural dividido por exponencial")
+  EquacaoNL(x->log(x^2+1)/e^(-x^2+0.5x), -1.0, "Log natural dividido por exponencial")
 ]
