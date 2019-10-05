@@ -1,6 +1,6 @@
 const ProblemList =
 [
 
-  EquacaoNL(x -> x*exp(pi+x)-4.523x^2, -1.013, "Exponencial com pi")
+EquacaoNL(x -> sin(x)*cos(x), 1.0, "Seno produto Cosseno")
 
 ]
