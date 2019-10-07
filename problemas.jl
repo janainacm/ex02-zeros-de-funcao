@@ -19,7 +19,7 @@ const ProblemList =
   EquacaoNL(x -> x*exp(pi+x)-4.523x^2, -1.013, "Exponencial com pi"),
   EquacaoNL(x -> sin(x)*cos(x), 1.0, "Seno produto Cosseno"),
   EquacaoNL(x -> ((exp(x)+exp(-x))/2)^2 -44*x^2-44, pi/2, "Cosseno hiperbólico"),
-  EquacaoNL(x -> sin(cos(exp(sqrt(x^2+6)))), 0.0, "Seno de cosseno de exponencial")
+  EquacaoNL(x -> sin(cos(exp(sqrt(x^2+6)))), 0.0, "Seno de cosseno de exponencial"),
   EquacaoNL(x -> x^6 - 48*x^4 + 1344*x^2 -4096, 0.0,"Grau 6"),
   EquacaoNL(x -> sin(exp(x))+cos(exp(x)), 0.0,"sen + cos de exp"),
   EquacaoNL(x -> log(x^2 + 5)/exp(sin(x))+x, 0.0,"Log exp e sen"),
